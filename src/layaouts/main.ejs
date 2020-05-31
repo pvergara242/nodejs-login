@@ -1,0 +1,32 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="X-UA-compatible" content="ie-edge">
+            <title>Login nodejs</title>
+            <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+            <link rel="stylesheet" href="/src/views/login.css">
+        </head>
+        <body>
+
+
+        <%  if ( signupMessage ) { %>
+        <div>
+            <%= signupMessage %>
+        </div>
+
+        <% } %>  
+
+
+        <%  if ( signinMessage ) { %>
+        <div>
+            <%= signinMessage %>
+        </div>
+        <% } %>  
+
+
+            <%- body %>
+
+        </body>
+    </html>
